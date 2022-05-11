@@ -1,0 +1,5 @@
+{
+  "public/build/runtime.js": "./runtime.js",
+  "public/build/app.js": "./app.js",
+  "public/build/app.css": "./app.css"
+}

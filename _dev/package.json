@@ -1,0 +1,27 @@
+{
+  "name": "famunia",
+  "version": "1.0.0",
+  "description": "landing page for start-up project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  },
+  "author": "Alexis Bertin",
+  "license": "ISC",
+  "dependencies": {
+    "compass-mixins": "^0.12.10",
+    "core-js": "^3.13.1",
+    "jquery": "^3.6.0",
+    "sass-loader": "^12.6.0",
+    "swiper": "5.4.5",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^2.1.0",
+    "file-loader": "^6.2.0",
+    "sass": "^1.51.0",
+    "webpack-notifier": "^1.15.0"
+  }
+}
