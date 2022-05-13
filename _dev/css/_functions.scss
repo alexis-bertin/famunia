@@ -1,15 +1,15 @@
 @import "~compass-mixins/lib/compass/css3";
-// @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
-// $font1: 'Merriweather', sans-serif;
+$font1: 'Poppins', sans-serif;
+$font2: 'Open Sans', sans-serif;
 
-$color1: #FF59EC;
-$color2: #FEF25D;
-$color3: #CCCCCC;
-$color4: #151515;
-$color5: #000000;
-$color6: #FFFFFF;
-$bg-color: #101010;
+$color1: #192965;
+$color2: #FAAFFF;
+$color3: #F0EFEF;
+
+$bg-color: #FFF;
 
 
 $size1: 1250px;

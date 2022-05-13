@@ -1,23 +1,14 @@
 html{
     overflow-x: hidden;
-
-    color: green;
-
     body{
-    //   font-family: $font1;
-    //   font-size: 18px;
-    //   line-height: 1.2;
-    //   background-color: $color4;
-    //   color: $color3;
-    //   font-weight: 400;
-    //   max-width: 1920px;
-    //   margin: 0 auto;
-    //   overflow: hidden;
-    //   @media screen and (max-width: $size0){
-    //     font-size: 16px;
-    //   }
+      font-family: $font1;
+      font-size: 16px;
+      line-height: 1.2;
+      color: $color1;
+      font-weight: 300;
+      margin: 0 auto;
+      overflow: hidden;
     }
-
     div.container{
         display: block;
         position: relative;
@@ -28,13 +19,16 @@ html{
             max-width: calc(100% - #{$goutiere});
         }
     }
-    
     h1, h2, h3, h4, h5, h6{
-        // font-family: $font1;
-        // font-weight: 400;
-        // color: $color6;
+        font-family: $font1;
+        font-weight: bold;
+        color: $color1;
     }
-
+    a{
+        text-decoration: none;
+        font-weight: 600;
+        color: $color1;
+    }
 
 
 

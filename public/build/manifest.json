@@ -1,5 +1,9 @@
 {
-  "public/build/runtime.js": "./runtime.js",
+  "public/build/app.css": "./app.css",
   "public/build/app.js": "./app.js",
-  "public/build/app.css": "./app.css"
+  "public/build/runtime.js": "./runtime.js",
+  "public/build/images/logo-famunia.svg": "./images/logo-famunia.56c0fb48.svg",
+  "public/build/images/V1-glyphe.svg": "./images/V1-glyphe.10022fd4.svg",
+  "public/build/images/logo-famunia-small.svg": "./images/logo-famunia-small.10022fd4.svg",
+  "public/build/images/picto-user.svg": "./images/picto-user.23691521.svg"
 }
