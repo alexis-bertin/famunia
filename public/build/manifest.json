@@ -3,7 +3,12 @@
   "public/build/app.js": "./app.js",
   "public/build/runtime.js": "./runtime.js",
   "public/build/images/logo-famunia.svg": "./images/logo-famunia.56c0fb48.svg",
-  "public/build/images/V1-glyphe.svg": "./images/V1-glyphe.10022fd4.svg",
-  "public/build/images/logo-famunia-small.svg": "./images/logo-famunia-small.10022fd4.svg",
-  "public/build/images/picto-user.svg": "./images/picto-user.23691521.svg"
+  "public/build/images/logo-famunia-small.svg": "./images/logo-famunia-small.53299672.svg",
+  "public/build/images/picto-insta.svg": "./images/picto-insta.ef820096.svg",
+  "public/build/images/picto-user.svg": "./images/picto-user.23691521.svg",
+  "public/build/images/picto-arrow-accordion.svg": "./images/picto-arrow-accordion.65f7c157.svg",
+  "public/build/images/picto-check.svg": "./images/picto-check.5fbbd71f.svg",
+  "public/build/images/picto-fb.svg": "./images/picto-fb.896270da.svg",
+  "public/build/images/picto-play.svg": "./images/picto-play.3622fbe2.svg",
+  "public/build/images/picto-arrow.svg": "./images/picto-arrow.63535428.svg"
 }

@@ -14,6 +14,7 @@
     "compass-mixins": "^0.12.10",
     "core-js": "^3.13.1",
     "jquery": "^3.6.0",
+    "lazyframe": "^2.2.7",
     "sass-loader": "^12.6.0",
     "swiper": "5.4.5",
     "yarn": "^1.22.10"

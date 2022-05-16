@@ -2,12 +2,13 @@ html{
     overflow-x: hidden;
     body{
       font-family: $font1;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1.2;
       color: $color1;
       font-weight: 300;
       margin: 0 auto;
       overflow: hidden;
+      padding-top: 100px;
     }
     div.container{
         display: block;
@@ -24,12 +25,45 @@ html{
         font-weight: bold;
         color: $color1;
     }
+    h1{
+        font-size: 36px;
+        @media(max-width: $size4){
+            font-size: 32px;
+        }
+    }
+    h2{
+        font-size: 32px;
+        @media(max-width: $size4){
+            font-size: 26px;
+        }
+    }
     a{
         text-decoration: none;
         font-weight: 600;
         color: $color1;
     }
+    p, span, label{
+        line-height: 1.5;
+    }
+    input{
+        font-family: $font1;
+        appearance: none;
+        -webkit-appearance: none;
+        border: none;
+        background-color: inherit;
+    }
 
-
-
+    *.btn{
+        background-color: $color1;
+        color: #fff;
+        font-weight: 600;
+        padding: 15px 50px;
+        white-space: nowrap;
+        cursor: pointer;
+        @include transition(.25s ease-in-out);
+        @include border-radius(10px);
+        &:hover{
+            background-color: $color2;
+        }
+    }
 }

@@ -1,10 +1,31 @@
 header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    @include box-shadow(0px 0px 5px rgba(40, 40, 40, 0));
     div.container{
         height: 100px;
         @include display-flex();
         @include align-items(center);
+        @include justify-content(space-between);
+        @include transition(.25s ease-in-out);
+        @media(max-width: $size4){
+            @include justify-content(center);
+        }
         div.contain-logo{
+            position: relative;
+            height: 45px;
             a{
+                position: absolute;
+                top: 0;
+                left: 0;
+                @include transition(.25s ease-in-out);
+                @media(max-width: $size4){
+                    position: relative;
+                }
                 span{
                     display: block;
                     text-indent: -900000000000px;
@@ -14,6 +35,8 @@ header{
                     background-repeat: no-repeat;
                 }
                 &.logo{
+                    opacity: 1;
+                    visibility: visible;
                     span{
                         width: 179px;
                         height: 45px;
@@ -21,7 +44,8 @@ header{
                     }
                 }
                 &.logo-scroll{
-                    display: none;
+                    opacity: 0;
+                    visibility: hidden;
                     span{
                         width: 38px;
                         height: 45px;
@@ -31,14 +55,23 @@ header{
             }
         }
         div.contain-links{
+            @media(max-width: $size4){
+                display: none;
+            }
             a{
                 &.link{
                     font-weight: 600;
+                    padding: 10px 25px;
+                    margin-right: 25px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
                 }   
                 &.btn-account{
-                    padding: 10px 25px 10px 60px;
+                    padding: 10px 25px 10px 50px;
                     background-color: $color1;
                     @include border-radius(50px);
+                    @include transition(.25s ease-in-out);
                     span{
                         position: relative;
                         font-weight: 600px;
@@ -61,6 +94,29 @@ header{
                             top: 50%;
                             left: -30px;
                             @include translateY(-50%);
+                        }
+                    }
+                    &:hover{
+                        background-color: $color2;
+                    }
+                }
+            }
+        }
+    }
+    &.scrolling{
+        @include box-shadow(0px 0px 5px rgba(40, 40, 40, .2));
+        div.container{
+            height: 80px;
+            div.contain-logo{
+                @media(min-width: $size4+1){
+                    a{
+                        &.logo{
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+                        &.logo-scroll{
+                            opacity: 1;
+                            visibility: visible;
                         }
                     }
                 }
