@@ -48,7 +48,6 @@ jQuery( document ).ready(function() {
     }
 
     //BLOC INTERFACES
-
     jQuery('section#interfaces div.option div.top').on('click', function(){
         var option  = jQuery(this).parent('.option');
         var data    = jQuery(this).data('onglet');
@@ -79,6 +78,4 @@ jQuery( document ).ready(function() {
         lazyload: true,
         autoplay: true
     });
-
-
 });

@@ -40,7 +40,7 @@ section{
                             }
                             input{
                                 @include border-radius(10px);
-                                &[type=text]{
+                                &[type=email]{
                                     background-color: $color3;
                                     padding: 15px 25px;
                                     margin-right: 10px;
@@ -572,6 +572,13 @@ section{
                             font-size: 18px;
                             font-weight: 500;
                             opacity: .8;
+                        }
+                        p.engagement{
+                            font-size: 16px;
+                            font-weight: 600;
+                            text-transform: uppercase;
+                            text-align: center;
+                            margin-top: 10px;
                         }
                     }
                     &:not(:last-child){
